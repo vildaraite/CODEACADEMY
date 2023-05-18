@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <div th:if="${not pageOfArticles.hasContent()}"
+         class="alert alert-primary"
+         role="alert">Sorry articles list is empty :(
+    </div>
+    <div th:if="${pageOfArticles.hasContent()}">
+        <table class="table table-striped">
+            <thead class="table-dark">
+            <tr>
+                <th class="col-4"><a th:with="sortDirection=${pageOfArticles.sort.getOrderFor('title')?.direction}"
+                                     th:href="@{/articles(sort='title' + ${sortDirection?.title() eq 'ASC' ? 'DESC' :'ASC'})}">Title
+                    <i class="bi"
+                       th:classappend="${sortDirection?.title() eq 'ASC' ? 'bi-sort-alpha-down' : 'bi-sort-alpha-up-alt'}"
+                       th:if="${sortDirection ne null}"></i></a></th>
+                <th class="col-6"><a
+                        th:with="sortDirection=${pageOfArticles.sort.getOrderFor('description')?.direction}"
+                        th:href="@{/articles(sort='description' + ${sortDirection?.description() eq 'ASC' ? 'DESC' :'ASC'})}">Description
+                    <i class="bi"
+                       th:classappend="${sortDirection?.description() eq 'ASC' ? 'bi-sort-alpha-down' : 'bi-sort-alpha-up-alt'}"
+                       th:if="${sortDirection ne null}"></i></a></th>
+                <th class="col-4"><a th:with="sortDirection=${pageOfArticles.sort.getOrderFor('category')?.direction}"
+                                     th:href="@{/articles(sort='category' + ${sortDirection?.category() eq 'ASC' ? 'DESC' :'ASC'})}">Category
+                    <i class="bi"
+                       th:classappend="${sortDirection?.category() eq 'ASC' ? 'bi-sort-alpha-down' : 'bi-sort-alpha-up-alt'}"
+                       th:if="${sortDirection ne null}"></i></a></th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="article: ${pageOfArticles.content}">
+                <td>
+                    <a th:href="@{/articles/{id}(id=${article.id})}"
+                       th:text="${article.title}"></a>
+                </td>
+                <td th:text="${article.description}">
+                </td>
+                <td th:text="${article.category}">
+                </td>
+                <td>
+                    <a th:href="@{/article/{id}/delete(id=${article.id})}"
+                       class="text-danger">
+                        <i class="bi bi-trash3"></i>
+                    </a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="row">
+            <div class="col-2"></div>
+            <nav aria-label="Page navigation example"
+                 class="col-8">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item"
+                        th:classappend="${pageOfArticles.number eq 0 ? 'disabled': ''}">
+                        <a class="page-link"
+                           th:href="@{/articles(page=${pageOfArticles.number} - 1)}"
+                           aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"
+                        th:each="page : ${#numbers.sequence(0, pageOfArticles.totalPages - 1)}"
+                        th:classappend="${page eq pageOfArticles.number ? 'active' : ''}">
+                        <span class="page-link" th:if="${page eq pageOfArticles.number}" th:text="${page} + 1"></span>
+                        <a class="page-link" th:if="${page ne pageOfArticles.number}"
+                           th:href="@{/articles(page=${page})}"
+                           th:text="${page} + 1"></a>
+                    </li>
+                    <li class="page-item"
+                        th:classappend="${pageOfArticles.number eq pageOfArticles.totalPages - 1 ? 'disabled': ''}">
+                        <a class="page-link"
+                           th:href="@{/articles(page=${pageOfArticles.number} + 1)}"
+                           aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="col-2 text-end">
+                <span th:text="'Total articles: ' + ${pageOfArticles.totalElements}"></span>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

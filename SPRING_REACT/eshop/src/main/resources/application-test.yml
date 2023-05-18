@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/playground
+    username: postgres
+    password: postgres
+  sql:
+    init:
+      mode: always
+
+logging:
+  level:
+    root: trace

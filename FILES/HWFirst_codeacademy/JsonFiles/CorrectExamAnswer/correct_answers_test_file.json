@@ -1,0 +1,21 @@
+{
+  "Egzamino ID" : 111,
+  "Egzamino dalykas" : "English",
+  "Egzamino tema" : "Grammar",
+  "Teisingi atsakymai" : [ {
+    "klausimas" : 1,
+    "atsakymas" : "A"
+  }, {
+    "klausimas" : 2,
+    "atsakymas" : "C"
+  }, {
+    "klausimas" : 3,
+    "atsakymas" : "B"
+  }, {
+    "klausimas" : 4,
+    "atsakymas" : "B"
+  }, {
+    "klausimas" : 5,
+    "atsakymas" : "A"
+  } ]
+}

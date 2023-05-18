@@ -1,0 +1,4 @@
+17:50:08.166 [main] ERROR lt.code.academy.SimpleService - Nepavyko padalinti 
+java.lang.ArithmeticException: / by zero
+	at lt.code.academy.SimpleService.division(SimpleService.java:10) ~[classes/:?]
+	at lt.code.academy.Main.main(Main.java:10) ~[classes/:?]

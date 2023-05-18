@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Comments</title>
+</head>
+<body>
+<div th:if="${#lists.isEmpty(comments)}">Sorry comment list is empty</div>
+<div th:unless="${#lists.toList(comments)}">
+    <table>
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Text</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="comment: ${comments}">
+            <td>
+                <a th:href="@{/comments/{id}(id=${comment.id})}" th:text="${comment.title}"></a>
+            </td>
+            <td th:text="${comment.text}"></td>
+            <td>
+                <a th:href="@{/comment/{id}/delete(id=${comment.id})}">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

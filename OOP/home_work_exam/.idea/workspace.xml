@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1e21816-87f7-4833-a56d-b9fefa0d0e94" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../DB/JDBC_examples/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/JDBC_examples/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/JDBC_examples/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/JDBC_examples/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/JDBC_examples/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/JDBC_examples/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/JDBC_examples/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/JDBC_examples/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/JDBC_examples/src/main/java/lt/code/academy/ApplicationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/JDBC_examples/src/main/java/lt/code/academy/h2/H2TransactionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/JDBC_examples/src/main/java/lt/code/academy/h2/HdConnectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/JDBC_examples/src/main/java/lt/code/academy/postgresql/PostgreSQLConnectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/JDBC_examples/src/main/java/lt/code/academy/postgresql/PrepareStatementWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/JDBC_examples/src/main/java/lt/code/academy/task/FirstTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/JDBC_examples/src/main/resources/connection.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/FirstMongoCollectionDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/MongoCollectionDeleteExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/MongoCollectionUpdateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/MongoDocumentConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/MongoObjectCollectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/MyFirstMongoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/MyFirstMongoCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/client/MongoClientProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/client/MongoObjectClientProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/data/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/task/LibraryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/task/LibraryRepositoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/task/data/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/task/data/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/task/data/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/src/main/java/lt/code/academy/task/data/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/FirstMongoCollectionDocument.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/MongoCollectionDeleteExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/MongoCollectionUpdateExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/MongoDocumentConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/MongoObjectCollectionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/MyFirstMongoClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/MyFirstMongoCollection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/client/MongoClientProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/client/MongoObjectClientProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/data/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/task/LibraryApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/task/LibraryRepositoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/task/data/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/task/data/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/task/data/Reservation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/MongoClientExample/target/classes/lt/code/academy/task/data/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/hw_second/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/hw_second/src/main/java/lt/code/academy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/hw_second/src/main/java/lt/code/academy/data/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/hw_second/src/main/java/lt/code/academy/data/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/hw_second/src/main/java/lt/code/academy/data/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/src/main/java/lt/code/academy/LithuanianBankApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/src/main/java/lt/code/academy/client/MongoClientProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/src/main/java/lt/code/academy/client/MongoObjectClientProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/src/main/java/lt/code/academy/data/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/src/main/java/lt/code/academy/data/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/src/main/java/lt/code/academy/data/Transfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/src/main/java/lt/code/academy/data/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/target/classes/lt/code/academy/LithuanianBankApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/target/classes/lt/code/academy/client/MongoClientProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/target/classes/lt/code/academy/client/MongoObjectClientProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/target/classes/lt/code/academy/data/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/target/classes/lt/code/academy/data/BankAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/target/classes/lt/code/academy/data/Transfer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DBTEST/Lithuanian_bank_association/target/classes/lt/code/academy/data/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/JsonFiles/CorrectExamAnswer/correct_answers_test_file.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/src/main/java/lt/code/academy/EqualResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/src/main/java/lt/code/academy/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/src/main/java/lt/code/academy/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/src/main/java/lt/code/academy/StudentAnswerWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/src/main/java/lt/code/academy/TestAnswerCorrect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/src/main/java/lt/code/academy/data/CorrectAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/src/main/java/lt/code/academy/data/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/src/main/java/lt/code/academy/data/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/src/main/java/lt/code/academy/data/Object.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/src/main/java/lt/code/academy/data/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/src/main/java/lt/code/academy/data/StudentAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/src/main/java/lt/code/academy/data/StudentResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/student.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/target/classes/lt/code/academy/StudentAnswerWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/target/classes/lt/code/academy/data/CorrectAnswer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/target/classes/lt/code/academy/data/Exam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/target/classes/lt/code/academy/data/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/HWFirst_codeacademy/target/classes/lt/code/academy/data/StudentAnswer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/exam_first/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/exam_first/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/exam_first/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/exam_first/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/exam_first/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/exam_first/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/exam_first/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/exam_first/src/main/java/lt/code/academy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/exam_first/src/main/java/lt/code/academy/data/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/exam_first/src/main/java/lt/code/academy/data/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/exam_first/src/main/java/lt/code/academy/data/StudentAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FILES/exam_first/src/main/java/lt/code/academy/data/StudentScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Budget/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Budget/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Budget/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Budget/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Budget/src/lt/code/academy/budget/BudgetMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Budget/src/lt/code/academy/budget/data/Income.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Budget/src/lt/code/academy/budget/data/IncomeCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Budget/src/lt/code/academy/budget/data/Outcome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Budget/src/lt/code/academy/budget/data/OutcomeCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Budget/src/lt/code/academy/budget/data/OutcomeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Budget/src/lt/code/academy/budget/data/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Budget/src/lt/code/academy/budget/data/TransferStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fake/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/object_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/payment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/people.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/arrays/MasExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/arrays/TaskOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/arrays/tasks/RepeatTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/JAEncodeDecodeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/StudentQuestionTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/list/ListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/list/tasks/Coordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/list/tasks/CordinateMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/list/tasks/Five.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/list/tasks/FourthTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/list/tasks/TaskFourth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/list/tasks/TaskOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/list/tasks/TaskThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/list/tasks/TaskTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/map/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/map/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/map/tasks/FourthTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/map/tasks/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/map/tasks/TaskThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/set/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/set/SetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/collection/set/TaskOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/constants/TaskFourth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/constants/TaskFourthCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/constants/TaskOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/constants/TaskThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/constants/TaskTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/constants/Week.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/enums/tasks/TaskOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/equals/tasks/TaskEno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/equals/tasks/TaskTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/exeptions/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/exeptions/CustomRuntimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/exeptions/ExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/exeptions/tasks/ExpandChassisException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/exeptions/tasks/ImportantException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/exeptions/tasks/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/exeptions/tasks/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/exeptions/tasks/TemporaryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/AnotherFileInputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/BufferedReaderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/BufferedWriterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/FileInputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/FileOutputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/ObjectInputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/ObjectOutputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/ScannerFileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/task/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/task/DriverTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/task/MainStatistic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/task/MoneyTransferMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/task/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/task/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/task/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/files/task/Statistic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/finals/task/FirstTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/finals/task/FirstTaskMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/finals/task/SecondTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/finals/task/SecondTaskMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/finals/task/ThirdTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/functions/CompositionFunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/functions/FunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/functions/FunctionMethodReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/functions/TripleIntConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/functions/UnboundedMethodReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/abstractClass/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/abstractClass/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/abstractClass/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/abstractClass/MainAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/abstractClass/tasks/AutoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/abstractClass/tasks/Automobilis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/abstractClass/tasks/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/abstractClass/tasks/PersonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/abstractClass/tasks/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/abstractClass/tasks/Sunkvezimis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/abstractClass/tasks/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/abstractClass/tasks/Transportas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/extend/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/extend/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/extend/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/extend/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/extend/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/extend/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/extend/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/extend/Policeman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/extend/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/extend/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/interfaces/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/interfaces/CartMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/interfaces/SecondCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/interfaces/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/interfaces/task/Frigate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/interfaces/task/Hovercraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/interfaces/task/Jeep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/interfaces/task/LandVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/interfaces/task/MainVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/interfaces/task/SeaVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/interfaces/task/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/EvenNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/NegativeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/NumberMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/OddNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/PositiveNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/TestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/insurance/CarInsurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/insurance/Insurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/insurance/KaskoInsurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/insurance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/insurance/TPVCAInsurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/storage/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/storage/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/storage/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/storage/RemoteDisk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/storage/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/third/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/third/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/third/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/third/L.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/third/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/inheritance/task/third/S.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/loops/BreakExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/loops/ContinueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/loops/ForExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/loops/WhileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/loops/tasks/LottoTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/loops/tasks/PalindromeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/loops/tasks/RemoveArrayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/nullExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/operators/IfElseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/operators/tasks/LeapTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/operators/tasks/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/operators/tasks/LogicOperatorsExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/operators/tasks/TaskThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/random/task/FirstTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/random/task/RandomDice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/random/task/SecondTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/random/task/ThirdTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/Armstrong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/Average.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/ChildCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/DateFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/MainCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/Mix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/Month.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/SecondTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/train/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/train/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/train/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/train/TrainException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/train/TrainState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/repeattasks/train/Transport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/FirstTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/FirstTaskMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/SecondTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/SecondTaskMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/StaticTestFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/StaticTestFinalMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/TaskFinalMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/TestFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/stream/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/stream/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/stream/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/string/StringFormatExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/stringbuilder/StringBuilderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/stringbuilder/TaskOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/time/LocalDateAndTimeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/vararg/MainVararg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/taskai.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firstproject/zaidejai.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/src/main/java/lt/code/academy/BoxMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/src/main/java/lt/code/academy/CustomPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/src/main/java/lt/code/academy/GenericBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/src/main/java/lt/code/academy/GenericCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/src/main/java/lt/code/academy/GenericClassMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/src/main/java/lt/code/academy/MainGenericClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/src/main/java/lt/code/academy/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_generic_playground/src/main/java/lt/code/academy/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../company_generator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../company_generator/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../company_generator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../company_generator/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../company_generator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../company_generator/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../company_generator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../company_generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../company_generator/src/main/java/lt/code/academy/company/generator/GenerateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../company_generator/src/main/java/lt/code/academy/company/generator/data/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../console_login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../console_login/src/main/java/lt/code/academy/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../console_login/src/main/java/lt/code/academy/LoginWriterReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../console_login/src/main/java/lt/code/academy/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fakerTask/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fakerTask/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fakerTask/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fakerTask/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fakerTask/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fakerTask/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fakerTask/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../faker_task/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../faker_task/src/main/java/lt/code/academy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/Answers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/CorrectAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/ExamAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/ExamInspector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/Reiks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/StudentAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/StudentAnswers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/data/StudentAnswersFromAnotherProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/lt/code/academy/Answers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/lt/code/academy/CorrectAnswers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/lt/code/academy/Exam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/lt/code/academy/ExamAnswer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/lt/code/academy/ExamInspector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/lt/code/academy/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/lt/code/academy/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/lt/code/academy/StudentAnswer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/jsonFiles/studentAnswerCatalogue/student_answer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/CorrectAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/ExamInspector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/ExamName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/LoginWriterReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/StudentFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/object/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/object/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/object/ExamDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/object/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/object/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/object/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/object/StudentAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/src/main/java/lt/code/academy/object/StudentResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/target/classes/lt/code/academy/CorrectAnswer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/target/classes/lt/code/academy/ExamInspector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/target/classes/lt/code/academy/ExamName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/target/classes/lt/code/academy/Helper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/target/classes/lt/code/academy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/target/classes/lt/code/academy/Students.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/target/classes/lt/code/academy/object/Answer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/target/classes/lt/code/academy/object/Exam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/target/classes/lt/code/academy/object/ExamDay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/target/classes/lt/code/academy/object/Professor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/target/classes/lt/code/academy/object/Score.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/target/classes/lt/code/academy/object/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/target/classes/lt/code/academy/object/StudentAnswer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home_work_first/target/classes/lt/code/academy/object/StudentResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../internet/browser/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../internet/browser/src/main/java/lt/code/academy/browser/Browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../internet/helper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../internet/helper/src/main/java/lt/code/academy/helper/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../internet/helper/src/main/java/lt/code/academy/helper/data/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../internet/helper/src/main/java/lt/code/academy/helper/data/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../internet/server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../internet/server/src/main/java/lt/code/academy/browser/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../internet/server/src/main/java/lt/code/academy/browser/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jar_example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jar_example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jar_example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jar_example/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jar_example/jar_example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../json_example/example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../json_example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../json_example/src/main/java/lt/code/acadamy/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../json_example/src/main/java/lt/code/acadamy/MainCustomUserSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../json_example/src/main/java/lt/code/acadamy/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../json_example/src/main/java/lt/code/acadamy/UserDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../json_example/src/main/java/lt/code/acadamy/UserSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../language_detector/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../language_detector/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../language_detector/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../language_detector/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../language_detector/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../language_detector/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../language_detector/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logging/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logging/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logging/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logging/logs.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logging/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logging/src/main/java/lt/code/academy/FakerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logging/src/main/java/lt/code/academy/SimpleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logging/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_jar_example/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_jar_example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_jar_example/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_jar_example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_jar_example/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_jar_example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_jar_example/src/main/java/lt/code/academy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_parent_example/child/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_parent_example/child/src/main/java/lt/code/academy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_parent_example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_parent_example/second_child/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_parent_example/second_child/src/main/java/lt/code/academy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../officialidgenerator/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../officialidgenerator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../officialidgenerator/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../officialidgenerator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../officialidgenerator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../officialidgenerator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../officialidgenerator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../officialidgenerator/src/main/java/lt/code/academy/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../officialidgenerator/src/main/java/lt/code/academy/LithuanianOfficialIdProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../officialidgenerator/src/main/java/lt/code/academy/OfficialIdProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../officialidgenerator/src/main/java/lt/code/academy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../officialidgenerator/src/main/java/lt/code/academy/Skaitliukas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/check/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/inheritence/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/inheritence/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/inheritence/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/loop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/loop/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/method/First.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/method/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/method/Second.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/modificator/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/modificator/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/modificator/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/tasks/Fifth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/tasks/First.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/tasks/FiveWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/tasks/Fourth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/tasks/MatrixOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/tasks/MatrixTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/tasks/Second.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/tasks/Sixth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repeat_topics/src/main/java/lt/code/academy/repeat/tasks/Third.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task_first/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task_first/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task_first/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task_first/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task_first/src/main/java/lt/code/academy/Firm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task_first/src/main/java/lt/code/academy/MainSecondTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task_first/src/main/java/lt/code/academy/MainThirdTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task_first/src/main/java/lt/code/academy/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task_first/src/main/java/lt/code/academy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task_first/src/main/java/lt/code/academy/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task_first/src/main/java/lt/code/academy/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task_first/src/main/java/lt/code/academy/company/generator/GenerateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task_first/src/main/java/lt/code/academy/company/generator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task_first/src/main/java/lt/code/academy/company/generator/data/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/out/production/test/Testing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/Testing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_playground/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_playground/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_playground/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_playground/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_playground/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_playground/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_playground/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_playground/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_playground/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_playground/src/main/java/lt/code/academy/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_playground/src/main/java/lt/code/academy/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_playground/src/main/java/lt/code/academy/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_playground/src/main/java/lt/code/academy/WriterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_playground/src/test/java/lt/code/academy/MyServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_playground/src/test/java/lt/code/academy/WriterServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/src/main/java/lt/code/academy/di/AnotherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/src/main/java/lt/code/academy/di/GradeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/src/main/java/lt/code/academy/di/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/src/main/java/lt/code/academy/di/MarkDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/src/main/java/lt/code/academy/di/SimpleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/src/main/java/lt/code/academy/di/aspect/MyFirstAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/src/main/java/lt/code/academy/di/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/src/main/java/lt/code/academy/di/repository/InternalMarkDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/di_example/src/main/java/lt/code/academy/di/repository/NewInternalMarkDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/eshop/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/eshop/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/eshop/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/eshop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/eshop/src/main/java/lt/code/academy/eshop/EshopApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/eshop/src/main/java/lt/code/academy/eshop/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/eshop/src/main/java/lt/code/academy/eshop/dto/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/eshop/src/main/java/lt/code/academy/eshop/example/controller/MyFirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/eshop/src/main/java/lt/code/academy/eshop/example/controller/servlet/MyFirstServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/eshop/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/eshop/src/main/resources/templates/form/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/eshop/src/main/resources/templates/myFirstTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPRING_REACT/eshop/src/main/resources/templates/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TEST/Budget/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TEST/Budget/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TEST/Budget/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TEST/Budget/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TEST/Budget/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/ConstructorExamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/MethodExamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/ScannerExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/StringExamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/TypeExamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/arrays/MasExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/arrays/MasExamples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/collection/ListExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/loops/task/ArraySum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/loops/task/ForExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/loops/task/LottoTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/loops/task/PalindromeTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/loops/task/RemoveArrayElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/string/StringFormatExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/string/StringFormatExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/first/TaskFourth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/first/TaskFourthDifferent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/first/TaskThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/first/TaskTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/fourth/FifthTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/fourth/FirstTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/fourth/FourthTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/fourth/SecondTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/fourth/SixthTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/fourth/ThirdTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/third/MyName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/third/TaskString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/ConstructorExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/constructor/ConstructorExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/EqualsExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/equals/EqualsExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/MethodExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/method/MethodExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/ScannerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/scanner/ScannerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/StringExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/string/StringExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/TypeExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/type/TypeExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/loops/task/ArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/loops/tasks/ArraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/tasks/first/TaskFourth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/method/tasks/TaskFourth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/tasks/first/TaskFourthDifferent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/method/tasks/TaskFourthDifferent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/tasks/first/TaskThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/method/TaskThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/tasks/first/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/method/tasks/TaskTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/tasks/fourth/FifthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/scanner/tasks/FifthTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/tasks/fourth/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/scanner/tasks/FirstTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/tasks/fourth/FourthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/scanner/tasks/FourthTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/tasks/fourth/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/scanner/tasks/SecondTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/tasks/fourth/SixthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/scanner/tasks/SixthTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/tasks/fourth/ThirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/scanner/tasks/ThirdTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/tasks/third/MyName.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/string/tasks/MyName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/tasks/third/TaskString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Firstproject/src/lt/codeacademy/first/project/examples/string/tasks/TaskString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoLocationDistance/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoLocationDistance/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoLocationDistance/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoLocationDistance/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoLocationDistance/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoLocationDistance/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LQfxrGnFHxA86SRIqMiQLRBKZk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JAVA/JAVAC/OOP/home_work_exam&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="StudentAnswer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.code.academy.StudentAnswer" />
+      <module name="home_work_exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.code.academy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StudentAnswer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1e21816-87f7-4833-a56d-b9fefa0d0e94" name="Changes" comment="" />
+      <created>1675808481487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675808481487</updated>
+      <workItem from="1681320084287" duration="121000" />
+      <workItem from="1681320584581" duration="390000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

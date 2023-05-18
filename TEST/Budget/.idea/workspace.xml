@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91666bc0-a449-4e48-af35-fc99957988d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/ChristmasTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/arrays/ArrayExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/arrays/MasExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/arrays/TaskOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/constants/ConstantExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/constants/TaskFourth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/constants/TaskFourthCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/constants/TaskOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/constants/TaskThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/constants/TaskTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/constants/Week.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/enums/tasks/EnumExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/enums/tasks/TaskOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/equals/tasks/TaskEno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/equals/tasks/TaskTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/loops/task/ArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/loops/task/ForExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/loops/task/LottoTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/loops/task/PalindromeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/loops/task/RemoveArrayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/operators/IfElseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/operators/tasks/LeapTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/operators/tasks/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/operators/tasks/LogicOperatorsExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/CircleArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/FirstTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/FirstTaskMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/SecondTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/SecondTaskMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/StaticTestFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/StaticTestFinalMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/TaskFinalMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/statics/tasks/TestFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/string/StringFormatExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/stringbuilder/StringBuilderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/stringbuilder/TaskOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/time/DateTimeTaskOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/time/LocalDateAndTimeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/EqualsExamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/MethodExamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/ScannerExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/StringExamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/first/TaskFourth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/first/TaskFourthDifferent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/first/TaskThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/first/TaskTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/fourth/FifthTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/fourth/FirstTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/fourth/FourthTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/fourth/SecondTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/fourth/SixthTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/fourth/ThirdTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/third/MyName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/out/production/Firstproject/lt/codeacademy/first/project/examples/tasks/third/TaskString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/EqualsExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/equals/EqualsExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/MethodExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/method/MethodExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/ScannerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/scanner/ScannerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/StringExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/string/StringExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/tasks/first/TaskFourth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/method/tasks/TaskFourth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/tasks/first/TaskFourthDifferent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/method/tasks/TaskFourthDifferent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/tasks/first/TaskThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/method/TaskThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/tasks/first/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/method/tasks/TaskTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/tasks/fourth/FifthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/scanner/tasks/FifthTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/tasks/fourth/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/scanner/tasks/FirstTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/tasks/fourth/FourthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/scanner/tasks/FourthTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/tasks/fourth/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/scanner/tasks/SecondTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/tasks/fourth/SixthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/scanner/tasks/SixthTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/tasks/fourth/ThirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/scanner/tasks/ThirdTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/tasks/third/MyName.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/string/tasks/MyName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/tasks/third/TaskString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Firstproject/src/lt/codeacademy/first/project/examples/string/tasks/TaskString.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2Is2juVTohBimGXs53ipfiNO9oY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91666bc0-a449-4e48-af35-fc99957988d6" name="Changes" comment="" />
+      <created>1670956110806</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670956110806</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
